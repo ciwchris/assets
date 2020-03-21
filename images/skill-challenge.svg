@@ -1,0 +1,82 @@
+<svg viewBox="0 0 850 600" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient id="grid" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%" stop-color="lightcoral" />
+            <stop offset="20%" stop-color="mistyrose" />
+            <stop offset="40%" stop-color="white" />
+            <stop offset="60%" stop-color="white" />
+            <stop offset="80%" stop-color="lightcyan" />
+            <stop offset="100%" stop-color="dodgerblue" />
+        </linearGradient>
+        <linearGradient id="anxietyGradient" x1="1" y1="1" x2="1" y2="0">
+            <stop offset="20%" stop-color="lightcoral" />
+            <stop offset="100%" stop-color="lightcyan" />
+        </linearGradient>
+        <linearGradient id="skillGradient">
+            <stop offset="0%" stop-color="lightcyan" />
+            <stop offset="80%" stop-color="dodgerblue" />
+        </linearGradient>
+
+        <g id="repeat" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="0" y="0" width="24" height="24" stroke="none"></rect>
+          <path d="M20 11a8.1 8.1 0 0 0 -15.5 -2m-.5 -5v5h5" />
+          <path d="M4 13a8.1 8.1 0 0 0 15.5 2m.5 5v-5h-5" />
+        </g>
+        <g id="rightArrow" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="0" y="0" width="24" height="24" stroke="none"></rect>
+          <circle cx="12" cy="12" r="9" />
+          <line x1="16" y1="12" x2="8" y2="12" />
+          <line x1="16" y1="12" x2="12" y2="16" />
+          <line x1="16" y1="12" x2="12" y2="8" />
+        </g>
+        <g id="chevronRight" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="0" y="0" width="24" height="24" stroke="none"></rect>
+          <polyline points="7 7 12 12 7 17" />
+          <polyline points="13 7 18 12 13 17" />
+        </g>
+    </defs>
+
+    <text x="110" y="35" font-size="35">(challenge</text>
+    <use href="#rightArrow" transform="translate(310, 12)" />
+    <text x="350" y="35" font-size="35">skill)</text>
+    <use href="#repeat" transform="translate(440, 12)" />
+    <use href="#chevronRight" transform="translate(470, 12)" />
+    <text x="500" y="35" font-size="35">zone flow</text>
+
+    <text x="360" y="580" textLength="100" font-size="20">skill</text>
+    <text font-size="20" textLength="280" lengthAdjust="spacing" rotate="-90" transform="translate(20 160) rotate(90)">challenge</text>
+
+    <rect x="50" y="50" width="700" height="500" fill="url(#grid)" stroke="black"></rect>
+
+    <text x="70" y="90" stroke="white" fill="white" font-size="30">anxiety</text>
+    <text x="570" y="520" stroke="white" fill="white" font-size="30">boredom</text>
+
+    <line x1="50" y1="550" x2="51" y2="500" stroke="url(#anxietyGradient)" stroke-linecap="round" stroke-width="4"></line>
+    <line x1="51" y1="501" x2="100" y2="500" stroke="url(#skillGradient)" stroke-linecap="round" stroke-width="4"></line>
+    <line x1="100" y1="500" x2="101" y2="450" stroke="url(#anxietyGradient)" stroke-linecap="round" stroke-width="4"></line>
+    <line x1="101" y1="451" x2="150" y2="450" stroke="url(#skillGradient)" stroke-linecap="round" stroke-width="4"></line>
+    <line x1="150" y1="450" x2="151" y2="400" stroke="url(#anxietyGradient)" stroke-linecap="round" stroke-width="4"></line>
+    <line x1="151" y1="401" x2="200" y2="400" stroke="url(#skillGradient)" stroke-linecap="round" stroke-width="4"></line>
+    <line x1="200" y1="400" x2="201" y2="350" stroke="url(#anxietyGradient)" stroke-linecap="round" stroke-width="4"></line>
+    <line x1="201" y1="351" x2="250" y2="350" stroke="url(#skillGradient)" stroke-linecap="round" stroke-width="4"></line>
+    <line x1="250" y1="350" x2="251" y2="300" stroke="url(#anxietyGradient)" stroke-linecap="round" stroke-width="4"></line>
+    <line x1="251" y1="301" x2="300" y2="300" stroke="url(#skillGradient)" stroke-linecap="round" stroke-width="4"></line>
+    <line x1="300" y1="300" x2="301" y2="250" stroke="url(#anxietyGradient)" stroke-linecap="round" stroke-width="4"></line>
+    <line x1="301" y1="251" x2="350" y2="250" stroke="url(#skillGradient)" stroke-linecap="round" stroke-width="4"></line>
+    <line x1="350" y1="250" x2="351" y2="200" stroke="url(#anxietyGradient)" stroke-linecap="round" stroke-width="4"></line>
+    <line x1="351" y1="201" x2="400" y2="200" stroke="url(#skillGradient)" stroke-linecap="round" stroke-width="4"></line>
+    <line x1="400" y1="200" x2="401" y2="150" stroke="url(#anxietyGradient)" stroke-linecap="round" stroke-width="4"></line>
+    <line x1="401" y1="151" x2="450" y2="150" stroke="url(#skillGradient)" stroke-linecap="round" stroke-width="4"></line>
+    <line x1="450" y1="150" x2="451" y2="100" stroke="url(#anxietyGradient)" stroke-linecap="round" stroke-width="4"></line>
+    <line x1="451" y1="101" x2="500" y2="100" stroke="url(#skillGradient)" stroke-linecap="round" stroke-width="4"></line>
+    <line x1="500" y1="100" x2="501" y2="50" stroke="url(#anxietyGradient)" stroke-linecap="round" stroke-width="4"></line>
+    <line x1="501" y1="51" x2="550" y2="50" stroke="url(#skillGradient)" stroke-linecap="round" stroke-width="4"></line>
+
+    <line x1="50" y1="450" x2="450" y2="50" stroke="orangered" stroke-dasharray="10" stroke-width="2"></line>
+    <line x1="100" y1="550" x2="600" y2="50" stroke="orangered" stroke-dasharray="10" stroke-width="2"></line>
+    <text textLength="400" font-size="15" stroke="orangered" lengthAdjust="spacing" transform="translate(200 440) rotate(-45)">fixed mindset</text>
+
+    <line x1="50" y1="300" x2="300" y2="50" stroke="lightgreen" stroke-dasharray="10" stroke-width="2"></line>
+    <line x1="250" y1="550" x2="750" y2="50" stroke="lightgreen" stroke-dasharray="10" stroke-width="2"></line>
+    <text textLength="400" font-size="15" stroke="lightgreen" lengthAdjust="spacing" transform="translate(350 440) rotate(-45)">growth mindset</text>
+</svg>
