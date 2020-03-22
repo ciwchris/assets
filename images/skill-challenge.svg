@@ -36,20 +36,20 @@
         </g>
     </defs>
 
-    <text x="110" y="35" font-size="35">(challenge</text>
-    <use href="#rightArrow" transform="translate(310, 12)" />
-    <text x="350" y="35" font-size="35">skill)</text>
-    <use href="#repeat" transform="translate(440, 12)" />
-    <use href="#chevronRight" transform="translate(470, 12)" />
-    <text x="500" y="35" font-size="35">zone flow</text>
+    <text x="50" y="35" font-size="35">(challenge</text>
+    <use href="#rightArrow" transform="translate(240, 12)" />
+    <text x="270" y="35" font-size="35">skill)</text>
+    <use href="#repeat" transform="translate(360, 12)" />
+    <use href="#chevronRight" transform="translate(395, 12)" />
+    <text x="430" y="35" font-size="35">zone flow</text>
 
-    <text x="360" y="580" textLength="100" font-size="20">skill</text>
+    <text x="290" y="580" textLength="100" font-size="20">skill</text>
     <text font-size="20" textLength="280" lengthAdjust="spacing" rotate="-90" transform="translate(20 160) rotate(90)">challenge</text>
 
-    <rect x="50" y="50" width="700" height="500" fill="url(#grid)" stroke="black"></rect>
+    <rect x="50" y="50" width="550" height="500" fill="url(#grid)" stroke="black"></rect>
 
     <text x="70" y="90" stroke="white" fill="white" font-size="30">anxiety</text>
-    <text x="570" y="520" stroke="white" fill="white" font-size="30">boredom</text>
+    <text x="460" y="530" stroke="white" fill="white" font-size="30">boredom</text>
 
     <line x1="50" y1="550" x2="51" y2="500" stroke="url(#anxietyGradient)" stroke-linecap="round" stroke-width="4"></line>
     <line x1="51" y1="501" x2="100" y2="500" stroke="url(#skillGradient)" stroke-linecap="round" stroke-width="4"></line>
@@ -77,6 +77,6 @@
     <text textLength="400" font-size="15" stroke="orangered" lengthAdjust="spacing" transform="translate(200 440) rotate(-45)">fixed mindset</text>
 
     <line x1="50" y1="300" x2="300" y2="50" stroke="lightgreen" stroke-dasharray="10" stroke-width="2"></line>
-    <line x1="250" y1="550" x2="750" y2="50" stroke="lightgreen" stroke-dasharray="10" stroke-width="2"></line>
-    <text textLength="400" font-size="15" stroke="lightgreen" lengthAdjust="spacing" transform="translate(350 440) rotate(-45)">growth mindset</text>
+    <line x1="250" y1="550" x2="600" y2="200" stroke="lightgreen" stroke-dasharray="10" stroke-width="2"></line>
+    <text textLength="400" font-size="15" stroke="lightgreen" lengthAdjust="spacing" transform="translate(275 515) rotate(-45)">growth mindset</text>
 </svg>
