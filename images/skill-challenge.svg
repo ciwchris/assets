@@ -43,7 +43,7 @@
     <use href="#chevronRight" transform="translate(395, 12)" />
     <text x="430" y="35" font-size="35">zone flow</text>
 
-    <text x="290" y="580" textLength="100" font-size="20">skill</text>
+    <text x="280" y="580" textLength="100" font-size="20">skill</text>
     <text font-size="20" textLength="280" lengthAdjust="spacing" rotate="-90" transform="translate(20 160) rotate(90)">challenge</text>
 
     <rect x="50" y="50" width="550" height="500" fill="url(#grid)" stroke="black"></rect>
@@ -73,10 +73,10 @@
     <line x1="501" y1="51" x2="550" y2="50" stroke="url(#skillGradient)" stroke-linecap="round" stroke-width="4"></line>
 
     <line x1="50" y1="450" x2="450" y2="50" stroke="orangered" stroke-dasharray="10" stroke-width="2"></line>
-    <line x1="100" y1="550" x2="600" y2="50" stroke="orangered" stroke-dasharray="10" stroke-width="2"></line>
-    <text textLength="400" font-size="15" stroke="orangered" lengthAdjust="spacing" transform="translate(200 440) rotate(-45)">fixed mindset</text>
+    <line x1="150" y1="550" x2="600" y2="100" stroke="orangered" stroke-dasharray="10" stroke-width="2"></line>
+    <text textLength="400" font-size="15" stroke="orangered" lengthAdjust="spacing" transform="translate(222 463) rotate(-45)">fixed mindset</text>
 
     <line x1="50" y1="300" x2="300" y2="50" stroke="lightgreen" stroke-dasharray="10" stroke-width="2"></line>
-    <line x1="250" y1="550" x2="600" y2="200" stroke="lightgreen" stroke-dasharray="10" stroke-width="2"></line>
-    <text textLength="400" font-size="15" stroke="lightgreen" lengthAdjust="spacing" transform="translate(275 515) rotate(-45)">growth mindset</text>
+    <line x1="300" y1="550" x2="600" y2="250" stroke="lightgreen" stroke-dasharray="10" stroke-width="2"></line>
+    <text textLength="400" font-size="15" stroke="lightgreen" lengthAdjust="spacing" transform="translate(297 537) rotate(-45)">growth mindset</text>
 </svg>
